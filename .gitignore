@@ -1,0 +1,51 @@
+﻿# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datos locales y bases de datos
+data/
+*.db
+*.sqlite
+*.sqlite3
+respaldo_seguridad/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Archivos de compilación
+build/
+dist/
+*.spec.bak
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales en cualquier subcarpeta
+**/.venv/
+**/venv/
+**/env/
+
+# Caché Python en cualquier subcarpeta
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Archivos sensibles y bases de datos en cualquier subcarpeta
+**/.env
+**/.env.*
+**/*.db
+**/*.sqlite
+**/*.sqlite3
